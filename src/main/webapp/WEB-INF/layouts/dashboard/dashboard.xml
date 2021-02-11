@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>  
+ 
+    <!-- Base Define -->
+    <definition name="homePage" 
+                template="/WEB-INF/layouts/dashboard/default.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/layouts/dashboard/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/home.jsp" /> 
+        <put-attribute name="footer" value="/WEB-INF/layouts/dashboard/footer.jsp" />
+    </definition>
+    <!--List of Rooms Page-->
+    <definition name="list" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/list.jsp"/>
+    </definition>
+    <!--Contact Page-->
+    <definition name="contact" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/contact.jsp"/>
+    </definition>
+    <!--Deals Page-->
+    <definition name="deals" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/deals.jsp"/>
+    </definition>
+    <!--Room Page-->
+    <definition name="room" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/room.jsp"/>
+    </definition>
+    <!--Reservation and Payment Page-->
+    <definition name="rsrvpmt" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/reservation.jsp"/>
+    </definition>
+    <!--Confirmation-->
+    <definition name="confirmationPage" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/confirmation.jsp"/>
+    </definition>
+ 
+    <!--login page-->
+    <definition name="login" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/login.jsp"/>
+    </definition>
+    <!--login page-->
+    <definition name="loginAttempt" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/loginAsAdmin.jsp"/>
+    </definition>
+    
+ 
+    <!--Reservation and Payment Page-->
+    <definition name="signup" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/signup.jsp"/>
+    </definition>
+    <!--Booked-->
+    <definition name="bookedRoom" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/booked.jsp"/>
+    </definition>
+ 
+ 
+  
+</tiles-definitions> 
