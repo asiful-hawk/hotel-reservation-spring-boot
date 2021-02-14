@@ -32,8 +32,9 @@ git clone https://github.com/asiful-hawk/hotel-reservation-spring-boot.git
 ### Sample images
 ![Home](Project%20Screenshots/Home.PNG "Home Page")
 ![List](Project%20Screenshots/List.PNG "List Page")
-![Room](Project%20Screenshots/room.PNG "Room Page")
+![Room](Project%20Screenshots/Room.PNG "Room Page")
 
+![a](Project%Screenshots/List.PNG)
 
 
 ___
