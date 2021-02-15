@@ -29,7 +29,15 @@ git clone https://github.com/asiful-hawk/hotel-reservation-spring-boot.git
 
 ### Clean and Build
 
-### Sample images fin 
+### Features of the Site
+  - Able to search with different criteria present
+  - List and View Rooms of Different Hotels with details
+  - Reserve room with payment details and extra features with additional payment options
+  - Promo Codes that change every day or whenever it is required (Work in Progress)
+  - View confirmation of reservation
+  - Admin can see their payment as well as the list of rooms booked by the customers
+
+### Sample images of the website
 
 #### Home Page
 ![Home](Project%20Screenshots/Home.PNG "Home Page")
