@@ -49,3 +49,5 @@ git clone https://github.com/asiful-hawk/hotel-reservation-spring-boot.git
 
 ___
 Copyight _Asiful Haque_ **2021**
+Author Name: Asiful Haque
+Author Email: asiful_hawk@yahoo.com
